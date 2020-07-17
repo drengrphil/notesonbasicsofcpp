@@ -37,14 +37,6 @@ int findSequenceOfZeros(vector<int>& numArr){
 
 
 int main(){
-    // vector<int> biNumbers = {1, 0, 0, 1};
-    // vector<int> biNumbers = convertDecToBinary(15);
-    // int valu
-    /*vector<int> biNumbers;
-    biNumbers.reserve(32);
-    for (int k = 0; k < 32; ++k){
-        biNumbers[k]: = (value >> k) & 1;
-    }*/
     vector<int> biNumbers;
     int N = 1041;
     biNumbers.reserve(32);
