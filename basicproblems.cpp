@@ -35,17 +35,6 @@ int findSequenceOfZeros(vector<int>& numArr){
     return maxNumOfZeros;
 }
 
-/*vector<int> convertDecToBinary(int N){
-    vector<int> biN;
-    biN.reserve(32);
-    bitset<32> binArr = N;
-    for (int k = 0, j = 31; k < 32; k++, j--){
-        biN[k] = binArr[j];
-    } 
-    
-    cout << biN[0] << endl;
-    return biN;
-}*/
 
 int main(){
     // vector<int> biNumbers = {1, 0, 0, 1};
